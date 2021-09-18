@@ -1,0 +1,44 @@
+.library-item{
+    width:300px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.library-item:hover{
+   background-color: #efefef ;
+}
+.library-item .library-video-poster img{
+    width:100%;
+    height:250px;
+    border-radius:20px ;
+}
+.video-title{
+    font-weight: bold;
+}
+.owner-video-fullname{
+color:gray;
+}
+.owner-video-fullname:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.video-meta-view::after{
+        content: "."
+}
+.library-video-poster-meta{
+    height: 100px;
+}
+.video-meta-data{
+    font-size:1rem;
+    color:gray;
+}
+.video-meta-data:hover{
+    font-size:1.1rem;
+    font-weight: bold;
+}
+.library-item .fa-youtube{
+    color:red;
+    font-size: 1.5rem;
+}
+.library-item .fa-youtube:hover{
+    font-size: 3.4rem;
+}
